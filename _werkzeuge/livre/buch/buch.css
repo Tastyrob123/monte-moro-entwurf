@@ -2,9 +2,9 @@
    Nachtblau #0D3F6F, Tiefnacht #071B2E, Papier #F5F2EE, Fassade #E7E1DC, Creme #EFE9E1, Lärche #C67144 als Akzent (letztes Wort im Titel, Hauptknopf),
    Lärche tief #9A4F2B auf Hell, Messing #B39867 nur als feine Linie; Fjalla One für Titel (eine Stärke), Instrument Sans zum Lesen, DM Mono gesperrt für kleine
    Zeilen. Form: Knöpfe als Pille mit rundem Knauf, Nähte zwischen hellen und dunklen Blättern als Grat nach den Gipfeln des Logos. Druck: je Kapitel eine A4-Seite quer. */
-@font-face{font-family:"Fjalla One";src:url(/assets/fonts/FjallaOne-400.woff2) format("woff2");font-weight:400;font-display:block}
-@font-face{font-family:"Instrument Sans";src:url(/assets/fonts/InstrumentSans-normal-400_600.woff2) format("woff2");font-weight:400 600;font-display:swap}
-@font-face{font-family:"DM Mono";src:url(/assets/fonts/DMMono-normal-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Fjalla One";src:url(../../../assets/fonts/FjallaOne-400.woff2) format("woff2");font-weight:400;font-display:block}
+@font-face{font-family:"Instrument Sans";src:url(../../../assets/fonts/InstrumentSans-normal-400_600.woff2) format("woff2");font-weight:400 600;font-display:swap}
+@font-face{font-family:"DM Mono";src:url(../../../assets/fonts/DMMono-normal-400.woff2) format("woff2");font-weight:400;font-display:swap}
 :root{--nacht:#0A2A4A;--nachtblau:#0D3F6F;--tiefnacht:#071B2E;--blau:#115595;--papier:#F5F2EE;--fassade:#E7E1DC;--creme:#EFE9E1;--wandschatten:#D6CCC1;
   --laerche:#C67144;--laerche-t:#9A4F2B;--messing:#B39867;--tinte:#13263A;--grau:#4A5D70;
   --text:#F5F2EE;--text2:rgba(245,242,238,.76);--dunkel:#13263A;--dunkel2:#4A5D70;
