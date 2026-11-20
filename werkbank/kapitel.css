@@ -557,7 +557,7 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 .faecher--5.da .blattk--3:hover{transform:rotate(6deg) translateY(-18px)}.faecher--5.da .blattk--4:hover{transform:rotate(3.5deg) translateY(-18px)}
 .faecher--5.da .blattk--5:hover{transform:rotate(-4deg) translateY(-18px)}
 .faecher--5 .blattk span{padding:9px 11px}
-@media(max-width:700px){.faecher--5 .blattk span{flex-direction:column;gap:3px;font-size:15px;letter-spacing:.06em;padding:7px 8px}}
+@media(max-width:700px){.faecher--5 .blattk span{flex-direction:column;gap:3px;font-size:13px;letter-spacing:.06em;padding:7px 8px}}
 
 /* Werkbank-Regel 1 (Robert 17.10.2026): seitliches Scrollen und Wischen in Bändern und Kacheln bleibt wie im Kit. Behoben ist nur das Hängenbleiben:
    was seitlich scrollt, hat kein eigenes senkrechtes Scrollen (overflow-x:auto macht overflow-y sonst zu auto) und hält das Mausrad nicht fest,
