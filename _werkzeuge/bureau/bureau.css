@@ -223,3 +223,5 @@ textarea.ws-langfeld{display:block;width:100%;box-sizing:border-box;resize:none;
 /* Übersicht «Die Website, Bereich für Bereich»: Bild immer oben, das Bild nimmt die übrige Höhe der Reihe, unter dem Text bleibt keine Leerfläche (Robert 10.11.2026) */
 .wo-app .wo-ber.ws-bereiche > .wo-bk.ws-bk{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(150px,1fr) auto}
 .wo-app .wo-ber.ws-bereiche > .wo-bk.ws-bk .wo-bk__b{min-height:150px}
+/* Prüfung 20.11.2026, Punkt 37: Werkzeugname im Kopf bricht am Handy um, statt unter «Bereiche» zu laufen */
+@media (max-width:480px){.wo-kopf .wo-marke-w b{white-space:normal;line-height:1.05}}
