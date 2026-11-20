@@ -155,6 +155,6 @@
 /* Nachzug 14.11.2026 (Prüfpunkt 20): am schmalen Handy eine Spalte, die Sätze unter den Stücken laufen über die ganze Breite */
 @media(max-width:440px){.etk{grid-template-columns:minmax(0,1fr)}.etk p{max-width:32ch}}
 /* Prüfung 20.11.2026, Punkt 18: Abschnitte des Befunds auf breiten Bildschirmen höchstens 150 px Luft oben und unten */
-.fl.bfs{padding-top:min(var(--abschnitt),150px);padding-bottom:min(var(--abschnitt),150px)}
+.fl{padding-top:min(var(--abschnitt),150px);padding-bottom:min(var(--abschnitt),150px)}
 /* Prüfung 20.11.2026, Punkt 35: Bon und Text enden auf einer Linie */
 #bon.stueck .in{align-items:end}
